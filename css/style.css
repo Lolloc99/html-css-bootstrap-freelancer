@@ -144,6 +144,12 @@ img {
 .ms_section_title_dark {
     color: #3c3c3c;
 }
+
+.img_container img {
+    border-radius: 10px;
+}
+
+
 /* /Sezione 1 */
 
 /* Section 2 */
@@ -167,8 +173,11 @@ img {
     padding: 1rem 0;
     border-left: 0;
     border-right: 0;
-    border-bottom: 1px solid black;
     border-radius: 0;
+}
+
+.ms_form:focus {
+    box-shadow: none;
 }
 
 .ms_form_message {
@@ -205,6 +214,15 @@ img {
 
 .ms_social ul {
     padding: 0;
+}
+
+#ms_a_green {
+    color: green;
+    text-decoration: none;
+}
+
+#ms_a_green:hover {
+    text-decoration: underline;
 }
 /* /Footer */
 
