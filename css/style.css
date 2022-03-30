@@ -50,6 +50,7 @@ img {
 /* /HEADER */
 
 /* MAIN */
+/* Jumbotron */
 .jumbotron {
     padding: 2rem 0;
 }
@@ -57,6 +58,67 @@ img {
 .img_jumbotron {
     width: 300px;
 }
+
+.ms_title_white {
+    font-size: 3rem;
+    padding: 0.7rem 0;
+    color: white;
+}
+
+.ms_star_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ms_star,
+.ms_star_dark {
+    font-size: 2.3rem;
+    padding: 0.7rem 0;
+    color: white;
+}
+
+.ms_star_row,
+.ms_star_row_dark {
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 1rem;
+}
+
+.ms_star_dark {
+    color: #3a546d;
+}
+
+.ms_star_row_dark {
+    border: 1px solid #3a546d;
+    background-color: #3a546d;
+}
+
+.ms_sub_white {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: white;
+}
+/* /Jumbotron */
+
+/* Sezione 1 */
+.ms_section_title,
+.ms_section_title_dark {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 0.7rem 0;
+    color: white;
+}
+
+.ms_section_title_dark {
+    color: #3c3c3c;
+}
+/* /Sezione 1 */
+
 
 /* /MAIN */
 
@@ -68,6 +130,7 @@ bg-header: #2c3e50
 bg-verde: #1abc9c
 bg-blu: #3a546d
 
+titoli neri: #3c3c3c
 scritte nere: #333333
 burger-icon: #888888
 righe e stella: #2c3e50
