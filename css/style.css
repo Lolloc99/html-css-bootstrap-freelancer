@@ -157,6 +157,29 @@ img {
     text-align: center;
     padding: 2rem 0;
 }
+/* /Section 2 */
+
+/* Section 3 */
+.ms_form {
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-top: 0;
+    padding: 1rem 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+
+.ms_form_message {
+    padding-bottom: 7rem;
+}
+
+.send_btn:hover {
+    background-color: #15a084;
+}
+/* /Section 3 */
+
 
 /* /MAIN */
 
